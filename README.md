@@ -3,6 +3,8 @@ Try/Catch/Else/Finally implementation for Go
 
 Main credits go to Peter Verhas, more specifically this page: https://dzone.com/articles/try-and-catch-in-golang.
 
+Might be useful to use this package alongside `tracerr`, to print the stacktrace and get exactly where the panic came from.
+
 Changes made:
 - Catch a `panic(nil)` by having a bool that tells if the code panicked or not, so that Tcef can know if the Catch function  should execute or
 not. This is because panic(nil) is a valid panic (nil interface for example), but when a function returns normal, the
