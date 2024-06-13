@@ -1,3 +1,3 @@
-module github.com/Edw590TryCatch-go
+module github.com/Edw590/TryCatch-go
 
 go 1.20
