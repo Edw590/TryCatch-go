@@ -22,4 +22,4 @@ go get github.com/Edw590/TryCatch-go@latest
 Check the example on the `examples` folder.
 
 ## License
-
+This project is licensed under Apache 2.0 License - http://www.apache.org/licenses/LICENSE-2.0.
